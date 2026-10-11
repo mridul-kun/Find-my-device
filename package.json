@@ -1,0 +1,42 @@
+{
+    "name": "find-my-device-desktop",
+    "version": "1.0.0",
+    "description": "Windows desktop app for Find My Device",
+    "main": "main.js",
+    "author": "Find My Device",
+    "private": true,
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder --win nsis"
+    },
+    "devDependencies": {
+        "electron": "^33.2.0",
+        "electron-builder": "^25.1.8"
+    },
+    "build": {
+        "appId": "com.player.findmydevice",
+        "productName": "Find My Device",
+        "directories": {
+            "output": "dist",
+            "buildResources": "assets"
+        },
+        "files": [
+            "main.js",
+            "preload.js",
+            "offline.html",
+            "config.json",
+            "assets/**"
+        ],
+        "win": {
+            "target": "nsis",
+            "icon": "assets/icon.png"
+        },
+        "nsis": {
+            "oneClick": false,
+            "allowToChangeInstallationDirectory": true,
+            "createDesktopShortcut": true,
+            "createStartMenuShortcut": true,
+            "shortcutName": "Find My Device"
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+  "704345a5-2434-47e9-9aaf-eb1a57fd0ca4": {
+    "name": "Windows PC",
+    "partnerId": "mv1uwyll065nq6d9whw4oblcs54855",
+    "ip": "::1",
+    "lastSeen": 1791634072946,
+    "last": {
+      "loc": {
+        "source": "gps",
+        "lat": 28.4993915857245,
+        "lon": 77.28646976466378,
+        "accuracy": 103,
+        "address": "Vishwakarma Colony, Badarpur, Central, Delhi, South East Delhi, Delhi, 121009, India",
+        "city": "New Delhi",
+        "region": "National Capital Territory of Delhi",
+        "country": "India",
+        "ip": "161.248.39.124",
+        "isp": "Gigazone Solution Private Limited"
+      },
+      "at": 1791634132082
+    }
+  },
+  "mv1uwyll065nq6d9whw4oblcs54855": {
+    "name": "Android phone",
+    "partnerId": "704345a5-2434-47e9-9aaf-eb1a57fd0ca4",
+    "ip": "192.168.1.13",
+    "lastSeen": 1791634151459,
+    "last": {
+      "loc": {
+        "source": "ip",
+        "ip": "161.248.39.124",
+        "city": "New Delhi",
+        "region": "National Capital Territory of Delhi",
+        "country": "India",
+        "lat": 28.6327,
+        "lon": 77.2198,
+        "isp": "Gigazone Solution Private Limited"
+      },
+      "at": 1791634143934
+    }
+  },
+  "bf6e634e-382a-4955-bcb9-20476f93da19": {
+    "name": "Windows PC",
+    "partnerId": null,
+    "ip": "::1",
+    "lastSeen": 1791634239408,
+    "last": {
+      "loc": {
+        "source": "ip",
+        "ip": "161.248.39.124",
+        "city": "New Delhi",
+        "region": "National Capital Territory of Delhi",
+        "country": "India",
+        "lat": 28.6327,
+        "lon": 77.2198,
+        "isp": "Gigazone Solution Private Limited"
+      },
+      "at": 1791634237517
+    }
+  }
+}
